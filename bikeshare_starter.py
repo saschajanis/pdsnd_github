@@ -67,7 +67,7 @@ def time_stats(df):
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
-    print('\nCalculating The Most Popular Stations and Trip...\n')
+    print('\nCalculating The Most Popular Stations and Trip are...\n')
     start_time = time.time()
 
     # display most commonly used start station
@@ -84,7 +84,7 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """Displays statistics on the total and average trip duration for you."""
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -128,7 +128,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you really like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
