@@ -4,7 +4,7 @@
 17.04.2026
 
 ### Version control Udacity Project
-Replace the Project Title
+
 
 ### Description
 This project is about demonstrating my newly achieved version control skills
